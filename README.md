@@ -1,4 +1,9 @@
-# Sistema IoT de Monitoreo Centralizado y Actuación Real Distribuida
+# Sistema IoT de Monitoreo Centralizado y Actuación Real Distribuida (lynxmint)
+---
+**Integrantes:**
+* Benjamín Urrutia
+* Bruno Vega
+
 
 ## 1. Descripción del Sistema
 Este proyecto implementa una arquitectura IoT completa para el control y supervisión síncrona de variables de estado de hardware. A través de una interfaz web centralizada (desarrollada en Python/Flask y maquetada con CSS nativo, cumpliendo con la restricción estricta de NO utilizar JavaScript), el usuario emite comandos de activación hacia un Broker MQTT local (Mosquitto). Los microcontroladores actúan como clientes de red distribuidos, ejecutando y auditando las acciones sobre hardware real en tiempo real.
