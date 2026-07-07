@@ -21,6 +21,18 @@ El registro visual del circuito operando en paralelo con la interfaz web y la te
 * [Ver capturas de la interfaz y hardware](./capturas/)
 
 ## 4. Evidencias de Funcionamiento
-/home/el_pleto/lynxmint/capturas/imagenes/codigos.png
-/home/el_pleto/lynxmint/capturas/imagenes/imagen interfaz.png
-/home/el_pleto/lynxmint/capturas/imagenes/terminal.png
+El registro visual del circuito operando en paralelo con la interfaz web, la base de datos Supabase y la terminal de control se encuentra debidamente respaldado en el repositorio:
+
+* **Persistencia de Datos en Nube (Supabase Dashboard):**
+  ![Registros de Servidor Supabase](./capturas/imagenes/captura_database.png)
+
+* **Interfaz de Control Web (Abyssal Void):**
+  ![Interfaz del Sistema](./capturas/imagenes/imagen%20interfaz.png)
+
+* **Validación de Código y Sockets en Terminal:**
+  ![Monitoreo y Códigos](./capturas/imagenes/codigos.png)
+
+* **Estructura Interna de Control:**
+  ![Sincronización del Sistema](./capturas/imagenes/terminal.png)
+
+* [Explorar carpeta completa de evidencias](./capturas/)
