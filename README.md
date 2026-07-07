@@ -17,5 +17,18 @@ Para garantizar la máxima estabilidad del sistema y mitigar fallas de concurren
 Cada comando ejecutado desde la interfaz web genera un log asíncrono con estampa de tiempo precisa (Año-Mes-Día Hora:Minuto:Segundo) que es enviado inmediatamente a una base de datos relacional en la nube a través de **Supabase**, cumpliendo con los requerimientos de auditoría y almacenamiento históricos exigidos.
 
 ## 4. Evidencias de Funcionamiento
-El registro visual del circuito operando en paralelo con la interfaz web y la terminal de control se encuentra debidamente respaldado en el directorio local:
-* [Ver capturas de la interfaz y hardware](./capturas/)
+El registro visual del circuito operando en paralelo con la interfaz web, la base de datos Supabase y la terminal de control se encuentra debidamente respaldado en el repositorio:
+
+* **Persistencia de Datos en Nube (Supabase Dashboard):**
+  ![Registros de Servidor Supabase](./capturas/imagenes/captura_database.png)
+
+* **Interfaz de Control Web (Abyssal Void):**
+  ![Interfaz del Sistema](./capturas/imagenes/imagen%20interfaz.png)
+
+* **Validación de Código y Sockets en Terminal:**
+  ![Monitoreo y Códigos](./capturas/imagenes/codigos.png)
+
+* **Estructura Interna de Control:**
+  ![Sincronización del Sistema](./capturas/imagenes/terminal.png)
+
+* [Explorar carpeta completa de evidencias](./capturas/)
